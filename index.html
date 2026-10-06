@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Allsen & Atik — Undangan Pernikahan</title>
+
+    <meta name="description"
+          content="Undangan Pernikahan Allsen & Atik — 13 Oktober 2026">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&family=Italianno&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =====================================================
+     LOADING
+===================================================== -->
+
+<div id="loadingScreen">
+    <div class="loading-inner">
+        <div class="loading-ornament">✦</div>
+        <h2>Allsen & Atik</h2>
+        <p>Menyiapkan undangan...</p>
+    </div>
+</div>
+
+
+<!-- =====================================================
+     MUSIK
+===================================================== -->
+
+<audio id="music" loop preload="none">
+    <source src="assets/music.mp4" type="audio/mpeg">
+</audio>
+
+
+<!-- =====================================================
+     APLIKASI
+===================================================== -->
+
+<div id="app">
+
+    <!-- TOP BAR -->
+    <header class="topbar">
+
+        <div class="brand">
+            ALLSEN <span>&</span> ATIK
+        </div>
+
+        <button id="musicButton"
+                class="music-button"
+                aria-label="Musik">
+            <span class="music-icon">♪</span>
+        </button>
+
+        <button id="menuButton"
+                class="menu-button"
+                aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+    </header>
+
+
+    <!-- =================================================
+         MENU
+    ================================================= -->
+
+    <aside id="menuPanel" class="menu-panel">
+
+        <div class="menu-header">
+            <p>UNDANGAN</p>
+            <h2>Allsen & Atik</h2>
+        </div>
+
+        <nav>
+
+            <button data-go="0">Sampul</button>
+
+            <button data-go="1">Salam Pembuka</button>
+
+            <button data-go="2">Dua Hati</button>
+
+            <button data-go="3">
+                Keluarga yang Turut Mengundang
+            </button>
+
+            <button data-go="4">Janji yang Dipersatukan</button>
+
+            <button data-go="5">Hari Bahagia</button>
+
+            <button data-go="6">Misa Pemberkatan</button>
+
+            <button data-go="7">Perayaan Kasih</button>
+
+            <button data-go="8">Sepenggal Kisah</button>
+
+            <button data-go="9">Kenangan</button>
+
+            <button data-go="10">Kehadiran Anda</button>
+
+            <button data-go="11">Ucapan & Doa</button>
+
+            <button data-go="12">Tanda Kasih</button>
+
+            <button data-go="13">Penutup</button>
+
+        </nav>
+
+    </aside>
+
+
+    <!-- =================================================
+         SCENE TRACK
+    ================================================= -->
+
+    <main id="sceneTrack">
+
+
+        <!-- =================================================
+             01. SAMPUL
+        ================================================= -->
+
+        <section class="scene scene-cover">
+
+            <div class="cover-image"></div>
+
+            <div class="cover-overlay"></div>
+
+            <div class="floral floral-top-left">❀</div>
+            <div class="floral floral-bottom-right">❁</div>
+
+            <div class="cover-content">
+
+                <p class="eyebrow">
+                    UNDANGAN PERNIKAHAN
+                </p>
+
+                <div class="gold-line"></div>
+
+                <h1>
+                    Allsen
+                    <span>&</span>
+                    Atik
+                </h1>
+
+                <p class="cover-date">
+                    13 OKTOBER 2026
+                </p>
+
+                <button id="openInvitation"
+                        class="luxury-button">
+                    Buka Undangan
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             02. SALAM PEMBUKA
+        ================================================= -->
+
+        <section class="scene">
+
+            <div class="scene-decoration top">❀</div>
+
+            <div class="content narrow">
+
+                <p class="eyebrow">DENGAN PENUH KASIH</p>
+
+                <h2>
+                    Sebuah hari yang
+                    kami nantikan
+                </h2>
+
+                <div class="ornament">✦</div>
+
+                <p class="romantic-text">
+                    Dengan penuh kasih dan sukacita,
+                    kami mengundang Bapak/Ibu/Saudara/i
+                    untuk hadir dan menjadi bagian
+                    dari hari yang begitu berarti bagi kami.
+                </p>
+
+                <p class="romantic-text">
+                    Sebuah hari ketika dua perjalanan
+                    dipertemukan dalam satu janji,
+                    satu doa, dan satu kehidupan.
+                </p>
+
+                <div class="names-small">
+                    Allsen & Atik
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             03. DUA HATI
+        ================================================= -->
+
+        <section class="scene">
+
+            <div class="content">
+
+                <p class="eyebrow">KEDUA MEMPELAI</p>
+
+                <h2>
+                    Dua Hati,
+                    Satu Perjalanan
+                </h2>
+
+                <div class="couple-grid">
+
+                    <div class="person-card">
+
+                        <div class="portrait">
+                            <img src="assets/allsen.jpeg"
+                                 alt="Allsen"
+                                 loading="lazy">
+                        </div>
+
+                        <p class="person-label">
+                            MEMPELAI PRIA
+                        </p>
+
+                        <h3>Allsen</h3>
+
+                        <p>
+                            Putra dari
+                            <br>
+                            Bpk. Marselinus Djeramut
+                            <br>
+                            & Ibu Rosalia Enisia Dahlia
+                        </p>
+
+                    </div>
+
+
+                    <div class="ampersand">
+                        &
+                    </div>
+
+
+                    <div class="person-card">
+
+                        <div class="portrait">
+                            <img src="assets/atik.jpeg"
+                                 alt="Atik"
+                                 loading="lazy">
+                        </div>
+
+                        <p class="person-label">
+                            MEMPELAI WANITA
+                        </p>
+
+                        <h3>Atik</h3>
+
+                        <p>
+                            Putri dari
+                            <br>
+                            Bpk. Thomas Nggo
+                            <br>
+                            & Ibu Kornelia Dangul
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             04. KELUARGA
+        ================================================= -->
+
+        <section class="scene family-scene">
+
+            <div class="content family-content">
+
+                <p class="eyebrow">
+                    KELUARGA YANG TURUT MENGUNDANG
+                </p>
+
+                <h2>
+                    Dengan penuh kasih,
+                    <br>
+                    Turut mengundang
+                </h2>
+
+                <div class="family-grid">
+
+                    <div class="family-column">
+
+                        <span class="family-title">
+                            KELUARGA MEMPELAI PRIA
+                        </span>
+
+                        <div class="family-line"></div>
+
+                        <p>
+                            Keluarga Besar Tuwa,
+                            Kake, Rohak.
+                        </p>
+
+                        <p>
+                            Keluarga Besar
+                            SDK Tuwa
+                        </p>
+
+                    </div>
+
+
+                    <div class="family-divider">
+                        <span>✦</span>
+                    </div>
+
+
+                    <div class="family-column">
+
+                        <span class="family-title">
+                            KELUARGA MEMPELAI WANITA
+                        </span>
+
+                        <div class="family-line"></div>
+
+                        <p>
+                            Bpk. Thomas Nggo
+                        </p>
+
+                        <p>
+                            Bpk. Rofinus Mbo, S.H., M.Si.
+                        </p>
+
+                        <p>
+                            Bpk. Belasius Urn
+                        </p>
+
+                        <p>
+                            Keluarga Besar
+                            Manu, Maras
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <p class="family-closing">
+                    Bersama keluarga besar, kerabat,
+                    dan sahabat yang kami kasihi,
+                    kami mengundang Anda untuk hadir
+                    dan memberikan doa serta restu
+                    bagi kedua mempelai.
+                </p>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             05. AYAT
+        ================================================= -->
+
+        <section class="scene verse-scene">
+
+            <div class="verse-frame">
+
+                <div class="verse-flower">❀</div>
+
+                <p class="eyebrow">
+                    FIRMAN YANG MENJADI JANJI
+                </p>
+
+                <blockquote>
+                    “Demikianlah mereka bukan lagi dua,
+                    melainkan satu. Karena itu,
+                    apa yang telah dipersatukan oleh Allah,
+                    tidak boleh diceraikan manusia.”
+                </blockquote>
+
+                <div class="verse-line"></div>
+
+                <p class="verse-source">
+                    Markus 10:8–9
+                </p>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             06. HARI BAHAGIA
+        ================================================= -->
+
+        <section class="scene date-scene">
+
+            <div class="content center">
+
+                <p class="eyebrow">
+                    CATAT TANGGALNYA
+                </p>
+
+                <div class="date-number">
+                    13
+                </div>
+
+                <div class="date-month">
+                    OKTOBER
+                </div>
+
+                <div class="date-year">
+                    2026
+                </div>
+
+                <div class="ornament">✦</div>
+
+                <p>
+                    Hari ketika sebuah janji
+                    akan diucapkan di hadapan Tuhan
+                    dan orang-orang yang kami kasihi.
+                </p>
+
+                <div id="countdown"
+                     class="countdown">
+
+                    <div>
+                        <strong id="days">00</strong>
+                        <span>Hari</span>
+                    </div>
+
+                    <div>
+                        <strong id="hours">00</strong>
+                        <span>Jam</span>
+                    </div>
+
+                    <div>
+                        <strong id="minutes">00</strong>
+                        <span>Menit</span>
+                    </div>
+
+                    <div>
+                        <strong id="seconds">00</strong>
+                        <span>Detik</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             07. MISA
+        ================================================= -->
+
+        <section class="scene event-scene">
+
+            <div class="event-card">
+
+                <p class="eyebrow">
+                    MOMEN SAKRAL
+                </p>
+
+                <h2>
+                    Misa Pemberkatan
+                </h2>
+
+                <div class="event-time">
+                    16.00 WITA
+                </div>
+
+                <div class="event-line"></div>
+
+                <h3>
+                    Gereja Paroki Rentung
+                </h3>
+
+                <p>
+                    Dengan penuh sukacita,
+                    kami mengundang Anda
+                    untuk menyaksikan dan mendoakan
+                    pemberkatan pernikahan kami.
+                </p>
+
+                <a
+                    class="location-button"
+                    href="https://maps.app.goo.gl/bemyG2yssjF88UTcA?g_st=awb"
+                    target="_blank">
+                    Lihat Lokasi
+                </a>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             08. RESEPSI
+        ================================================= -->
+
+        <section class="scene reception-scene">
+
+            <div class="reception-card">
+
+                <p class="eyebrow">
+                    PERAYAAN KASIH
+                </p>
+
+                <h2>
+                    Resepsi
+                </h2>
+
+                <div class="event-time">
+                    19.00 WITA
+                    <span>— Selesai</span>
+                </div>
+
+                <div class="event-line"></div>
+
+                <h3>
+                    Halaman Gendang Maras
+                </h3>
+
+                <p>
+                    Mari berbagi sukacita,
+                    tawa, dan kebahagiaan
+                    bersama kami.
+                </p>
+
+                <a
+                    class="location-button"
+                    href="https://maps.app.goo.gl/ZoG8p14jYP1BuYYe9?g_st=awb"
+                    target="_blank">
+                    Lihat Lokasi
+                </a>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             09. KISAH
+        ================================================= -->
+
+        <section class="scene story-scene">
+
+            <div class="story-image">
+                <img src="assets/4.jpeg"
+                     alt="Allsen dan Atik"
+                     loading="lazy">
+            </div>
+
+            <div class="story-content">
+
+                <p class="eyebrow">
+                    SEPENGGAL KISAH
+                </p>
+
+                <h2>
+                    Sebuah kisah
+                    yang membawa
+                    kami sampai di sini
+                </h2>
+
+                <p>
+                    Ada pertemuan yang mungkin
+                    terlihat sederhana, tetapi diam-diam
+                    menjadi awal dari sebuah perjalanan panjang.
+                </p>
+
+                <p>
+                    Dari dua kehidupan yang berjalan
+                    dengan cerita masing-masing,
+                    Tuhan mempertemukan dua hati
+                    untuk belajar saling mengenal,
+                    saling menjaga, dan akhirnya memilih
+                    untuk berjalan bersama.
+                </p>
+
+                <p>
+                    Hari ini bukan sekadar tentang
+                    sebuah perayaan.
+                </p>
+
+                <p>
+                    Ini adalah tentang sebuah janji
+                    untuk terus berjalan, dalam suka
+                    maupun duka, dalam tawa maupun air mata,
+                    hingga langkah-langkah kami
+                    menjadi satu perjalanan.
+                </p>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+     10. GALLERY
+================================================= -->
+
+<section class="scene gallery-scene">
+
+    <div class="content">
+
+        <p class="eyebrow">
+            KENANGAN YANG KAMI SIMPAN
+        </p>
+
+        <h2>
+            Potongan cerita
+            <br>
+            tentang kami
+        </h2>
+
+        <div class="gallery-decoration">
+            <span>✦</span>
+            <i></i>
+            <span>♡</span>
+            <i></i>
+            <span>✦</span>
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <!-- FOTO UTAMA -->
+            <button
+                class="gallery-item gallery-main"
+                data-image="assets/1.jpeg"
+                aria-label="Buka foto kenangan 1">
+
+                <img
+                    src="assets/1.jpeg"
+                    alt="Kenangan Allsen dan Atik 1"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    01
+                </span>
+
+            </button>
+
+
+            <!-- FOTO 2 -->
+            <button
+                class="gallery-item"
+                data-image="assets/foto1.jpeg"
+                aria-label="Buka foto kenangan 2">
+
+                <img
+                    src="assets/foto1.jpeg"
+                    alt="Kenangan Allsen dan Atik 2"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    02
+                </span>
+
+            </button>
+
+
+            <!-- FOTO 3 -->
+            <button
+                class="gallery-item"
+                data-image="assets/foto2.jpeg"
+                aria-label="Buka foto kenangan 3">
+
+                <img
+                    src="assets/foto2.jpeg"
+                    alt="Kenangan Allsen dan Atik 3"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    03
+                </span>
+
+            </button>
+
+
+            <!-- FOTO 4 -->
+            <button
+                class="gallery-item"
+                data-image="assets/foto3.jpeg"
+                aria-label="Buka foto kenangan 4">
+
+                <img
+                    src="assets/foto3.jpeg"
+                    alt="Kenangan Allsen dan Atik 4"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    04
+                </span>
+
+            </button>
+
+
+            <!-- FOTO 5 -->
+            <button
+                class="gallery-item"
+                data-image="assets/5.jpeg"
+                aria-label="Buka foto kenangan 5">
+
+                <img
+                    src="assets/5.jpeg"
+                    alt="Kenangan Allsen dan Atik 5"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    05
+                </span>
+
+            </button>
+
+
+            <!-- FOTO 6 -->
+            <button
+                class="gallery-item"
+                data-image="assets/6.jpeg"
+                aria-label="Buka foto kenangan 6">
+
+                <img
+                    src="assets/6.jpeg"
+                    alt="Kenangan Allsen dan Atik 6"
+                    loading="lazy">
+
+                <span class="gallery-number">
+                    06
+                </span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="next-btn"
+        data-next>
+
+        Berikutnya
+
+    </button>
+
+</section>
+
+
+        <!-- =================================================
+             11. KEHADIRAN
+        ================================================= -->
+
+        <section class="scene attendance-scene">
+
+            <div class="content narrow center">
+
+                <p class="eyebrow">
+                    KEHADIRAN ANDA
+                </p>
+
+                <h2>
+                    Hadir maupun
+                    berhalangan,
+                    doa Anda berarti
+                    bagi kami.
+                </h2>
+
+                <p class="romantic-text">
+                    Kehadiran Bapak/Ibu/Saudara/i
+                    merupakan kebahagiaan yang begitu
+                    berarti bagi kami.
+                </p>
+
+                <p class="romantic-text">
+                    Namun apabila berhalangan hadir,
+                    doa dan kasih yang disampaikan
+                    dari kejauhan tetap menjadi bagian
+                    yang kami syukuri.
+                </p>
+
+                <div class="attendance-buttons">
+
+                    <button id="attendButton"
+                            class="attendance-btn primary">
+                        Saya Akan Hadir
+                    </button>
+
+                    <button id="notAttendButton"
+                            class="attendance-btn secondary">
+                        Saya Berhalangan Hadir
+                    </button>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             12. UCAPAN
+        ================================================= -->
+
+        <section class="scene wishes-scene">
+
+            <div class="content narrow center">
+
+                <p class="eyebrow">
+                    UCAPAN & DOA
+                </p>
+
+                <h2>
+                    Tinggalkan
+                    doa terbaik
+                    untuk kami
+                </h2>
+
+                <p>
+                    Setiap doa dan ucapan yang diberikan
+                    akan menjadi bagian terindah serta menjadi kenangan
+                    manis untuk kami.
+                </p>
+
+                <form id="wishForm"
+                      class="wish-form">
+
+                    <input
+                        type="text"
+                        id="guestName"
+                        placeholder="Nama Anda"
+                        required>
+
+                    <textarea
+                        id="guestWish"
+                        placeholder="Tuliskan ucapan dan doa..."
+                        required></textarea>
+
+                    <button type="submit"
+                            class="luxury-button">
+                        Kirim Ucapan
+                    </button>
+
+                </form>
+
+                <div id="wishMessage"
+                     class="wish-message">
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             13. HADIAH
+        ================================================= -->
+
+        <section class="scene gift-scene">
+
+            <div class="content narrow center">
+
+                <p class="eyebrow">
+                    TANDA KASIH
+                </p>
+
+                <h2>
+                    Sebuah tanda
+                    kasih dan doa
+                </h2>
+
+                <p>
+                    Bagi keluarga dan sahabat
+                    yang ingin berbagi tanda kasih,
+                    kami menerimanya dengan penuh
+                    rasa syukur dan terima kasih.
+                </p>
+
+                <div class="bank-card">
+
+                    <p>
+                        NOMOR REKENING
+                    </p>
+
+                    <strong id="accountNumber">
+                        5063006113
+                    </strong>
+
+                    <span>
+                        Atas Nama Allsen / Atik
+                    </span>
+
+                    <button id="copyAccount">
+                        Salin Nomor Rekening
+                    </button>
+
+                </div>
+
+            </div>
+
+            <button class="next-btn" data-next>
+                Berikutnya
+            </button>
+
+        </section>
+
+
+        <!-- =================================================
+             14. PENUTUP
+        ================================================= -->
+
+        <section class="scene closing-scene">
+
+            <div class="closing-image"></div>
+
+            <div class="closing-overlay"></div>
+
+            <div class="closing-content">
+
+                <p class="eyebrow">
+                    SAMPAI JUMPA
+                </p>
+
+                <h2>
+                    Di hari bahagia
+                    kami
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <p>
+                    Terima kasih telah menjadi bagian
+                    dari cerita yang begitu berarti bagi kami.
+                </p>
+
+                <p>
+                    Kehadiran, doa, dan kasih Anda
+                    akan menjadi kenangan yang kami simpan
+                    dalam perjalanan kehidupan kami.
+                </p>
+
+                <div class="closing-names">
+                    Allsen & Atik
+                </div>
+
+                <p class="closing-date">
+                    13 Oktober 2026
+                </p>
+
+                <p class="closing-thanks">
+                    Dengan kasih,
+                    kami menantikan kehadiran Anda.
+                </p>
+
+            </div>
+
+            <button id="restartButton"
+                    class="restart-btn">
+                Kembali ke Awal
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================================
+         NAVIGASI HALAMAN
+    ================================================= -->
+
+    <div id="pageIndicator"
+         class="page-indicator">
+        <span id="currentPage">01</span>
+        <i></i>
+        <span>14</span>
+    </div>
+
+
+    <!-- =================================================
+         GALLERY MODAL
+    ================================================= -->
+
+    <div id="galleryModal"
+         class="gallery-modal">
+
+        <button id="closeGallery"
+                class="close-gallery">
+            ×
+        </button>
+
+        <button id="galleryPrev"
+                class="gallery-nav gallery-prev">
+            ‹
+        </button>
+
+        <img id="galleryImage"
+             src=""
+             alt="Galeri">
+
+        <button id="galleryNext"
+                class="gallery-nav gallery-next">
+            ›
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
